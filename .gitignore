@@ -1,0 +1,18 @@
+# Cache and compiled files
+*.cache
+*.log
+*.tmp
+*.pyc
+__pycache__/
+
+# Sensitive / private
+config/wireguard/
+config/gh/
+config/mozilla/
+config/chromium/
+config/Signal/
+config/transmission/
+
+# Backup files
+*.backup*
+*.bak*
